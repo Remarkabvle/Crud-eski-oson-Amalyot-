@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form input, form textarea {
+  margin: 5px 0;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+}
+
+form button {
+  padding: 10px 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 200px;
+}
+
+.card button {
+  margin: 5px;
+  padding: 5px 10px;
+}
